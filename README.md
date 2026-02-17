@@ -19,12 +19,26 @@ This project focuses on **Atorvastatin (Lipitor)** as a case study, addressing t
 * **The Solution:** A **Multi-output Random Forest Regressor** trained on virtual formulation data (CMAs like Magnesium Stearate and Crospovidone).
 * **Value:** Predicts the **$f_2$ Similarity Factor** in real-time. Includes **Sensitivity Analysis** to identify which excipient is the primary bottleneck for equivalence.
 
-
-
+<p align="center">
+   <br>
+   <img src="assets/dissolution.png" width="60%"> <br>
+   Figure 1: Real-time f2 calculation and profile comparison.<br>
+   <br>
+   <img src="assets/sensitivity.png" width="60%"> <br>
+   Figure 2: Identify the high-impact excipient.
+</p>   
+   
 ### 2. Stability: ASAP Shelf-Life Predictor
 * **The Problem:** Traditional ICH stability studies require 6 months of data for a submission.
 * **The Solution:** Implements the **Humidity-Modified Arrhenius Equation** using Linear Regression.
 * **Value:** Uses 2-week "isoconversion" stress data to project a 24-month shelf life. Enables high-confidence primary packaging selection 5 months ahead of schedule.
+
+<p align="center">
+   <br>
+   <img src="assets/stability_heatmap.png" width="60%"> <br>
+   Figure 3: Heatmap analysis showing shelf-life sensitivity to storage conditions.<br>
+   <br>
+</p>  
 
 ### 3. Safety: Automated Impurity Identification
 * **The Problem:** "Unknown" peaks in LC-MS data trigger OOS investigations that stall filings.
