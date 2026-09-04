@@ -61,7 +61,7 @@ This project focuses on **Atorvastatin (Lipitor)** as a case study, addressing t
 
 1. **Clone the Repo:**
    ```bash
-   git clone [https://github.com/your-username/anda-launch-accelerator.git](https://github.com/your-username/anda-launch-accelerator.git)
+   git clone https://github.com/patel721/anda-launch-accelerator.git
    cd anda-launch-accelerator
 
 2. Install Dependencies:
